@@ -3,11 +3,10 @@ CODAL build tools for the micro:bit with my own program, ready to be built and f
 
 ALL CODE ASIDE FROM THE CW1.cpp IN microbit-v2-samples/source IS WORK OF VARIOUS MICROBIT DEVELOPERS AND RESEARCHERS AND I TAKE NO CREDIT FOR THAT CODE.
 
-TO BUILD AND FLASH THE FILE TO A MICROBIT, YOULL NEED THESE:
-    sudo apt install gcc
-    sudo apt install git
-    sudo apt install cmake
-    sudo apt install gcc-arm-none-eabi binutils-arm-none-eabi
+1. sudo apt install gcc
+2. sudo apt install git
+3. sudo apt install cmake
+4. sudo apt install gcc-arm-none-eabi binutils-arm-none-eabi
 
 THIS PROGRAM PROVIDES 4 FUNCTIONS:
 1. 5HZ Binary counter from 0b00000 to 0b11111.
